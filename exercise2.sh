@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name = "Aydin Tokuslu"
+name="Aydin Tokuslu"
 
 echo $name
 
