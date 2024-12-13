@@ -7,3 +7,7 @@ b=2
 
 
 echo $sum
+
+let "a +=5"
+
+echo $a
