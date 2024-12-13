@@ -1,5 +1,9 @@
 #!/bin/bash
 
-name="Aydin Tokuslu"
+a=8
+b=2
 
-echo $name
+((sum = $a + $b))
+
+
+echo $sum
