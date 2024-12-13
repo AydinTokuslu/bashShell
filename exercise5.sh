@@ -4,7 +4,7 @@ x="hello"
 y="hello"
 z="world"
 
-if [ $x = $y]
+if [ $z = $y ]
 then
     echo "Equal"
 else
