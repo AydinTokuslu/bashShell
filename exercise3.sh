@@ -3,5 +3,3 @@
 name="Aydin Tokuslu"
 
 echo $name
-
-pwd
