@@ -3,5 +3,5 @@
 while (true)
 do
     echo "Press [Ctrl + C] to stop"
-    sleep5
+    sleep1
 done
