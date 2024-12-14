@@ -9,7 +9,7 @@ echo "Number of Paramaters: "$#
 echo "Current ID Process: "$$
 echo "Double Quotation Parameters: "$*
 
-((sum=$mum1+$num2))
+((sum=$num1+$num2))
 echo $sum
 
 echo "Exit Status: "$?
