@@ -1,10 +1,10 @@
 #!/bin/bash
 
-`tar cvf /home/useradmin/backup/backup.tar /var/backups`
+tar cvf /home/useradmin/backup/backup.tar /etc
 
-`find backup.tar.gz -mtime -1 -type f -print &> /dev/null`
+#`find backup.tar.gz -mtime -1 -type f -print &> /dev/null`
 
-`gzip /home/useradmin/backup/backup.tar`
+#`gzip /home/useradmin/backup/backup.tar`
 
 if [ $? -eq 0 ]
 then
