@@ -7,7 +7,10 @@ do
 
     if [ $i -ge 15 ]
     then
+        #awk '{print $1}' $i
+        
         echo "Space is greater than 21%"
+        
     fi
 
 done
