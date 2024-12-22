@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source ./second-script.sh
+
 echo "Hello"
 
-./second-script.sh
+echo $y
+
