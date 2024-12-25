@@ -14,5 +14,7 @@ do
         echo "Space is greater than 21%"
         
     fi
-
 done
+
+
+
