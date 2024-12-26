@@ -14,9 +14,16 @@ echo "Multiple= $mult"
 echo "Division= $div"
 
 x=5
+echo $x
 let x++
+echo $x
+let ++x
 echo $x
 
 y=3
+echo $y
 let y--
 echo $y
+let --y
+echo $y
+
