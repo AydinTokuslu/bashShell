@@ -8,10 +8,11 @@
 # 6. Change the num1 and num2 variables to be passed from the Command 
 # line arguments instead of receiving them from the user
 
-read -p "enter first number" num1
-read -p "enter second number" num2
+read -p "enter first number: " num1
+read -p "enter second number: " num2
 
 ((sum=$num1+$num2))
-"Total number is $sum"
+echo "Total number is $sum"
 let sum++
-"Total number is $sum"
+echo "Total number is $sum"
+echo "new diff from $sum - $num1 is $((sum-num1))"
