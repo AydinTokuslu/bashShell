@@ -7,8 +7,8 @@ echo "This is my first script"
 
 #read -p "enter your name: " name
 #echo Hello $name
-read -p "enter your passwd: " pswd
-echo $pswd 
+read -s -p "enter your passwd: " pswd
+echo "your password is $pswd" 
 echo "The name of the Bash script: " $0 
 echo "The first argument : " $1 
 echo "How many arguments were passed to the Bash script: " $#
