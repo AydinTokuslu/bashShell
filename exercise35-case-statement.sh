@@ -17,7 +17,7 @@ case $operation in
         echo "result= $(( $first_number - $second_number ))"
     ;;
     "3")
-        echo "result= $(( $first_number \* $second_number ))"
+        echo "result= $(( $first_number * $second_number ))"
     ;;
     "4")
         echo "result= $(( $first_number / $second_number ))"

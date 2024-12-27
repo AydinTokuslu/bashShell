@@ -8,6 +8,7 @@ if [[ $age -lt 18 ]]
 then
     echo "$name, your are a student"
     ((x=18-$age))
+    #echo "You have at least $(( 18 - $age )) years to become a worker"
     echo "You have at least $x years to become a worker"
 elif [[ $age -ge 18 ]] && [[ $age -lt 65  ]]
 then
