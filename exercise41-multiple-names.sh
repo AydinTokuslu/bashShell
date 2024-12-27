@@ -1,8 +1,18 @@
 #!/bin/bash
 
-read -p "please enter multiple names : " names
 
-for i in ${@}
+echo "Please enter names separated by spaces:"
+read -r names
+
+
+for name in $names; do
+    echo "Hello, $name!"
+done
+
+<< comment
+
+for i in $@
 do
     echo "Hello $i"
 done
+comment
