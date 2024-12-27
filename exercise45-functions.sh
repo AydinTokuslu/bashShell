@@ -4,7 +4,7 @@ num1=5
 
 function add_one() {
     local num2=1
-    echo "Total $(( $num1 + $num2 ))"
+    echo "Total = $(( $num1 + $num2 ))"
 
 }
 
