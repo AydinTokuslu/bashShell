@@ -6,7 +6,6 @@
 # Print age with a message
 # Call print_age function with 2022
 
-
 function print_age () {
     #read -p "enter your birtday : " birth
     read -p "enter your birtday : " $1
