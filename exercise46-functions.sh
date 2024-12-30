@@ -15,4 +15,4 @@ function print_age () {
 
 }
 
-print_age 2002
+print_age 2000
