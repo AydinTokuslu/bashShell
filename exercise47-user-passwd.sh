@@ -38,7 +38,6 @@ then
   exit 1
 fi
 
-
 # Force password change on first login.
 passwd -e ${USER_NAME}
 
