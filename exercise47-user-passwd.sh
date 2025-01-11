@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # This script creates a new user on the local system.
 
 if [[ "${UID}" -ne 0 ]]
@@ -27,6 +28,7 @@ then
   echo 'This username is already exit. Please select different username '
   exit 1
 fi
+
 
 # Set the password.
 echo ${PASSWORD} | passwd --stdin ${USER_NAME}
